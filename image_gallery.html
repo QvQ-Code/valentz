@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="a static personal website used for storeing Iqbal hasan's public data">
+    <title>Valentz | Iqbal hasan's personal website</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/valentz.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="text/javascript" src="js/data/data.js"></script>
+</head>
+<body>
+    <div>
+
+        <header>
+            <div class="icon">
+                Valentz
+            </div>
+            <nav class="navigation">
+                <ul class="dropdown menu" data-dropdown-menu>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#0" style="color: rgba(226, 175, 34, 0.786) !important;">Image collection</a></li>
+                    <li>
+                    <!-- <a href="#0">Game profile</a>
+                    <ul class="menu">
+                        <li><a href="#0">Epic Seven</a></li>
+                        <li><a href="#0">Honkai Impact</a></li>
+                    </ul>
+                    </li> -->
+                </ul>
+            </nav>
+        </header>
+
+       <div id="Wrapper" class="wrapper">
+            <div class="image-show">
+                <div class="heading" style="margin: 0 0 50px 0;">
+                    <hr style="flex-grow: 1;">
+                    <div class="text-section">
+                        <div class="text">
+                            <div>Image collection</div>
+                            <div>GALLERY</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p style="margin: 0 auto 40px auto;">Saya sering menjelajah internet untuk melihat karya para illustrator diluar sana, sembari mencari hal-hal yang bisa di pelajari dalam membuat sebuah ilustrasi. Kumpulan gambar disini adalah jalan pintas bagi saya jika ingin melihat lagi karya-karya mereka.</p>
+
+            <div class="columns-2 md:columns-3 lg:columns-4">
+
+                <script>
+                    for (var i = 0; i < illust.length; i++) {
+                        var el = "<div class='relative mb-4 before:content-[''] before:rounded-md before:absolute before:inset-0 before:bg-black before:bg-opacity-20'>";
+                                el += '<img class="w-full rounded-md" src="'+ illust[i].url +'">';
+                                el += '<div class="info">';
+                                    el += '<div class="artist">';
+                                        el += illust[i].artist;
+                                    el += '</div>';
+                                    el += '<div class="source">';
+                                            el += '<span class="material-symbols-outlined">link</span>';
+                                            el += "<a href='"+ illust[i].source +"' target='_blank'>" + illust[i].platform + "</a>";
+                                    el += '</div>';
+                                el += '</div>';
+                            el += '</div>';
+
+                        document.write(el);
+                    }
+                </script>
+                
+            </div>
+       </div>
+
+    </div>
+</body>
+<script>
+    // Init foundation
+    $(document).foundation();
+</script>
+</html>

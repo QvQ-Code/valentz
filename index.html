@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="a static personal website used for storeing Iqbal hasan's public data">
+    <title>Valentz | Iqbal hasan's personal website</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/valentz.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/data/data.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="icon">
+                Valentz
+            </div>
+            <nav class="navigation">
+                <ul class="dropdown menu" data-dropdown-menu>
+                    <li><a href="index.html" style="color: rgba(226, 175, 34, 0.786) !important;">Home</a></li>
+                    <li><a href="image_gallery.html">Image collection</a></li>
+                    <li>
+                    <!-- <a href="#0">Game profile</a>
+                    <ul class="menu">
+                        <li><a href="#0">Epic Seven</a></li>
+                        <li><a href="#0">Honkai Impact</a></li>
+                    </ul>
+                    </li> -->
+                </ul>
+            </nav>
+        </header>
+
+       <div id="Wrapper" class="wrapper">
+            <div class="image-show">
+                <div class="heading">
+                    <hr style="flex-grow: 1;">
+                    <div class="text-section">
+                        <div class="text">
+                            <div>Image collection</div>
+                            <div>GALLERY</div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="columns">
+                    <div class="orbit" role="region" aria-label="" data-orbit>
+                        <ul class="orbit-container">
+                            <li class="is-active orbit-slide">
+                                <div class="docs-image-orbit-slide">
+                                    <div class="image">
+                                        <script>illustration(0);</script>
+                                        <div class="info">
+                                            <div class="artist">
+                                                <script>illustration_artist(0);</script>
+                                            </div>
+                                            <div class="source">
+                                                <span class="material-symbols-outlined">link</span>
+                                                <script>illustration_link(0);</script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="image">
+                                        <script>illustration(1);</script>
+                                        <div class="info">
+                                            <div class="artist">
+                                                <script>illustration_artist(1);</script>
+                                            </div>
+                                            <div class="source">
+                                                <span class="material-symbols-outlined">link</span>
+                                                <script>illustration_link(1);</script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="image">
+                                        <script>illustration(2);</script>
+                                        <div class="info">
+                                            <div class="artist">
+                                                <script>illustration_artist(2);</script>
+                                            </div>
+                                            <div class="source">
+                                                <span class="material-symbols-outlined">link</span>
+                                                <script>illustration_link(2);</script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="image">
+                                        <script>illustration(3);</script>
+                                        <div class="info">
+                                            <div class="artist">
+                                                <script>illustration_artist(3);</script>
+                                            </div>
+                                            <div class="source">
+                                                <span class="material-symbols-outlined">link</span>
+                                                <script>illustration_link(3);</script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            
+                <p>Saya sering menjelajah internet untuk melihat karya para illustrator diluar sana, sembari mencari hal-hal yang bisa di pelajari dalam membuat sebuah ilustrasi. Kumpulan gambar disini adalah jalan pintas bagi saya jika ingin melihat lagi karya-karya mereka.</p>
+            
+                <div class="button-center">
+                    <a href="image_gallery.html" class="button">Show all images</a>
+                </div>
+            </div>
+       </div>
+
+    </div>
+</body>
+<script type="text/javascript" src="/js/function/valentz.js"></script>
+<script>
+    // Init foundation
+    $(document).foundation();
+</script>
+</html>

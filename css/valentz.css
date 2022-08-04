@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Dosis:wght@200;300;400;500;600;700;800&family=Square+Peg&display=swap');
+
+/* ready font family */
+/* font-family: 'Alumni Sans Inline One', cursive; */
+/* font-family: 'Dosis', sans-serif; */
+
+/* =============================================== */
+* {
+    box-sizing: border-box;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+body {
+    color: rgb(57, 57, 57);
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    padding: 30px 7%;
+    display: flex;
+    align-items: center;
+}
+
+header .icon {
+    padding: 0 20px;
+    height: 50px;
+    border: 2px solid rgba(226, 175, 34, 0.786);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    margin-right: 2%;
+}
+
+header nav {
+    display: contents;
+}
+
+header nav ul li a {
+    color: black !important;
+    font-weight: bold;
+}
+
+.wrapper {
+    padding: 30px 15%;
+}
+
+.wrapper .image-show .heading {
+    position: relative;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    margin-bottom: 70px;
+}
+
+.wrapper .image-show .heading .text-section {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .image-show .heading .text-section .text {
+    background-color: white;
+    width: 30%;
+    text-align: center;
+}
+
+.wrapper .image-show .heading .text-section .text > div:nth-child(1) {
+    color: rgba(226, 175, 34, 0.786);
+    font-style: italic;
+    line-height: normal;
+    font-family: 'Square Peg', cursive;
+    font-size: 30px;
+}
+
+.wrapper .image-show .heading .text-section .text > div:nth-child(2) {
+    color: black;
+    font-size: 60px;
+    line-height: normal;
+    font-family: 'Alumni Sans Inline One', cursive;
+}
+
+.docs-image-orbit-slide {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.docs-image-orbit-slide .image {
+    width: 235px;
+    height: 430px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0,0,0,.1);
+    position: relative;
+}
+
+.docs-image-orbit-slide .image img {
+    width: 100%;
+    height: initial;
+    display: block;
+}
+
+.wrapper .relative {
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0,0,0,.1);
+    position: relative;
+}
+
+.docs-image-orbit-slide .image .info,
+.wrapper .relative .info {
+    background-image: linear-gradient(to top right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3));
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.docs-image-orbit-slide .image .info .artist,
+.wrapper .relative .info .artist {
+    padding: 0 10px;
+    height: 25px;
+    font-size: 13px;
+    width: fit-content;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 5;
+    border-radius: 15px;
+    flex-grow: 0;
+    background-color: #333;
+    color: white;
+}
+
+.docs-image-orbit-slide .image .info .artist .material-symbols-outlined,
+.wrapper .relative .info .artist .material-symbols-outlined {
+    font-size: 15px !important;
+    margin-right: 10px;
+}
+
+.docs-image-orbit-slide .image .info .source,
+.wrapper .relative .info .source {
+    background-color: cornflowerblue;
+    display: inline-flex;
+    align-items: center;
+    height: 25px;
+    width: fit-content !important;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 15px;
+    padding: 0 10px;
+    color: white;
+    margin-top: 5px;
+}
+
+.docs-image-orbit-slide .image .info .source span,
+.wrapper .relative .info .source span {
+    margin-right: 5px
+}
+
+.docs-image-orbit-slide .image .info .source a,
+.wrapper .relative .info .source a {
+    color: white;
+    font-size: 13px;
+}
+
+.docs-image-orbit-slide .image:nth-child(odd) {
+    margin-top: 30px;
+}
+
+.wrapper .row {
+    margin-bottom: 70px;
+}
+
+.wrapper p {
+    margin: 0 auto 30px auto;
+    width: 70%;
+    text-align: center;
+}
+
+.wrapper .button {
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.wrapper .button-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* ============ */
