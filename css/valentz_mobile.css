@@ -1,6 +1,21 @@
 @media (max-width: 380px){
     header {
         padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-image: linear-gradient(to bottom, rgba(255,255,255, 1) 90%, rgba(255,255,255,.5));
+        box-shadow: 0 0 10px -6px rgba(0,0,0,.3);
+        z-index: 1000;
+    }
+
+    .button {
+        height: 30px !important;
+        padding: 0 10px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     header .icon {
@@ -8,6 +23,14 @@
         height: 30px;
         font-size: 20px;
         margin-right: 5px;
+    }
+
+    header .navigation {
+        display: none;
+    }
+
+    header .m-navigation {
+        display: inline-block;
     }
     
     header nav ul li a {
