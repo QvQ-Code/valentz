@@ -1,0 +1,81 @@
+@media (max-width: 380px){
+    header {
+        padding: 10px;
+    }
+
+    header .icon {
+        padding: 0 10px;
+        height: 30px;
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    
+    header nav ul li a {
+        padding: 0 5px !important;
+        display: inline-block !important;
+    }
+
+    header nav ul li {
+        width: fit-content;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .wrapper {
+        padding: 30px 10%;
+    }
+
+    .docs-image-orbit-slide .image {
+        width: 32%;
+        height: 160px;
+    }
+
+    .docs-image-orbit-slide .image:nth-child(4) {
+        display: none !important;
+    }
+
+    .orbit-container {
+        height: 170px;
+    }
+
+    .wrapper .row {
+        margin-bottom: 30px;
+    }
+    .wrapper p {
+        width: 100%;
+        font-size: 13px;
+    }
+    .wrapper .image-show .heading {
+        margin-bottom: 30px !important;
+    }
+    .wrapper .image-show .heading .text-section .text > div:nth-child(1) {
+        font-size: 20px;
+    }
+    .wrapper .image-show .heading .text-section .text > div:nth-child(2) {
+        font-size: 40px;
+    }
+    .wrapper .image-show .heading .text-section .text {
+        width: 60%;
+    }
+    .docs-image-orbit-slide .image .info {
+        padding: 5px;
+    }
+    .docs-image-orbit-slide .image .info .artist, 
+    .wrapper .relative .info .artist {
+        height: 15px;
+        font-size: 10px;
+    }
+    .docs-image-orbit-slide .image .info .source, 
+    .wrapper .relative .info .source {
+        height: 15px;
+    }
+    .docs-image-orbit-slide .image .info .source a, 
+    .wrapper .relative .info .source a {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .docs-image-orbit-slide .image .info .source span, 
+    .wrapper .relative .info .source span {
+        font-size: 11px;
+    }
+}
