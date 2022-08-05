@@ -103,4 +103,8 @@
     .wrapper .relative .info .source span {
         font-size: 11px;
     }
+    footer {
+        font-size: 13px;
+        margin-top: 0px !important;
+    }
 }
