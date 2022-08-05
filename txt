@@ -1,0 +1,29 @@
+ <div class="row small-up-1 medium-up-3 large-up-4" id="masonary_container">
+
+                <script>
+                    for (var i = 0; i < illust.length; i++) {
+                        var el = "<div data-open='modal"+i+"' class='relative column'>";
+                                el += '<img class="w-full rounded-md" src="'+ illust[i].url +'">';
+                                el += '<div id="modal4" class="reveal" data-reveal>';
+                                    el += '<img src="'+ illust[i].url +'">';
+
+                                    el += '<button class="close-button" data-close aria-label="Close modal" type="button">';
+                                        el += '<span aria-hidden="true">&times;</span>';
+                                        el += '</button>';
+                                    el += '</div>';
+                                el += '<div class="info">';
+                                    el += '<div class="artist">';
+                                        el += illust[i].artist;
+                                    el += '</div>';
+                                    el += '<div class="source">';
+                                            el += '<span class="material-symbols-outlined">link</span>';
+                                            el += "<a href='"+ illust[i].source +"' target='_blank'>" + illust[i].platform + "</a>";
+                                    el += '</div>';
+                                el += '</div>';
+                            el += '</div>';
+
+                        document.write(el);
+                    }
+                </script>
+                
+            </div>
