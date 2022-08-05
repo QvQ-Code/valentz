@@ -76,10 +76,11 @@
                 </div>
             </div>
 
-            <p style="margin: 0 auto 40px auto;">Saya sering menjelajah internet untuk melihat karya para illustrator diluar sana, sembari mencari hal-hal yang bisa di pelajari dalam membuat sebuah ilustrasi. Kumpulan gambar disini adalah jalan pintas bagi saya jika ingin melihat lagi karya-karya mereka.</p>
+            <p style="margin: 0 auto 40px auto;">Showing my favorite illustrations <span style="color: rgb(255, 44, 79);">&#10084;</span>, alright, let's go!</p>
+            <p class="help-text" style="text-align: left; width: 100%; margin-bottom: 0;">*Seluruh gambar disini bukan milik saya.</p>
+            <p class="help-text" style="text-align: left; width: 100%; margin-bottom: 10px;">*Informasi artist dan sumber tertera pada bagian kiri bawah dari gambar, klik untuk menuju ke halaman asli.</p>
 
             <div class="columns-2 md:columns-3 lg:columns-4">
-
                 <script>
                     for (var i = 0; i < illust.length; i++) {
                         var el = "<div class='relative mb-4 before:content-[''] before:rounded-md before:absolute before:inset-0 before:bg-black before:bg-opacity-20'>";
@@ -89,8 +90,8 @@
                                         el += illust[i].artist;
                                     el += '</div>';
                                     el += '<div class="source">';
-                                            el += '<span class="material-symbols-outlined">link</span>';
-                                            el += "<a href='"+ illust[i].source +"' target='_blank'>" + illust[i].platform + "</a>";
+                                            el += '<a>Source: </a>';
+                                            el += "<a style='font-weight: bold' href='"+ illust[i].source +"' target='_blank'>" + illust[i].platform + "</a>";
                                     el += '</div>';
                                 el += '</div>';
                             el += '</div>';
