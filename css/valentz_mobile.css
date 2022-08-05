@@ -62,7 +62,9 @@
     }
     .docs-image-orbit-slide .image .info .artist, 
     .wrapper .relative .info .artist {
-        height: 15px;
+        height: auto;
+        padding-top: 3px;
+        padding-bottom: 3px;
         font-size: 10px;
     }
     .docs-image-orbit-slide .image .info .source, 
