@@ -5,7 +5,7 @@
     "start_url": "/index.html",
     "name": "Valentz",
     "short_name": "Valentz",
-    "description": "Valentz | Iqbal hasan's personal website",
+    "description": "Valentz",
     "icons": [
         {
             "src": "assets/images/pwa/icon-192x192.png",
