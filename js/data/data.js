@@ -103,8 +103,8 @@ var data = {
             "id"    : "15",
             "url"   : "https://pbs.twimg.com/media/FYMoYV2UsAEc9Vy?format=jpg&name=4096x4096",
             "source"   : "https://twitter.com/shima1709/status/1550128007737516032/photo/1",
-            "platform": "Twitter @shima1709",
-            "artist": '-'
+            "platform": "Twitter",
+            "artist": '@shima1709'
         },
         {
             "id"    : "16",
