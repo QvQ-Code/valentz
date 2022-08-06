@@ -99,7 +99,20 @@ var data = {
             "platform": "Tumblr",
             "artist": 'Mito Nagishiro'
         },
-
+        {
+            "id"    : "15",
+            "url"   : "https://pbs.twimg.com/media/FYMoYV2UsAEc9Vy?format=jpg&name=4096x4096",
+            "source"   : "https://twitter.com/shima1709/status/1550128007737516032/photo/1",
+            "platform": "Twitter @shima1709",
+            "artist": '-'
+        },
+        {
+            "id"    : "16",
+            "url"   : "https://pbs.twimg.com/media/FZNL72zaQAA3gnO?format=jpg&name=4096x4096",
+            "source"   : "https://twitter.com/lemon_mito/status/1554670154814205953/photo/1",
+            "platform": "Twitter",
+            "artist": 'Mito Nagishiro'
+        },
     ]
 }
 
